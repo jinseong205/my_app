@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { Container, Row, Col } from 'reactstrap';
-
+import Thumbnail from 'components/jinseong/Thumbnail';
 class HomeDetail extends Component {
     render() {
         return (
@@ -17,11 +17,11 @@ class HomeDetail extends Component {
                                     <span className="d-block pb-4 h2 text-dark border-bottom border-gray">Portfolio Project</span>
 
                                     <article className="pt-5 text-secondary text-justify" style={{ fontSize: '0.9rem', whiteSpace: 'pre-line' }}>
-                                        React를 이용한 포트플리오 프로젝트<br />
-                                        Home 화면입니다.
+                                         
                                     </article>
                                 </div>
                             </Fragment>
+                            <Thumbnail/>
                         </Col>
                     </Row>
                 </Container>

@@ -1,0 +1,16 @@
+.thumbnail{
+    background-image:url('/img/profile.jpg');
+    margin:10px;
+    width:250px;
+    height:250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 100%;
+  }
+  .thumbnail.round{
+    border-radius: 10%;
+  }
+  .thumbnail.circle{
+    border-radius: 100%;
+  }
