@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import Thumbnail from 'components/jinseong/Thumbnail';
+
 class HomeDetail extends Component {
     render() {
         return (
@@ -11,17 +12,18 @@ class HomeDetail extends Component {
                             <Fragment>
                                 <div className="position-relative">
                                     <span className="d-block pb-2 mb-0 h6 text-uppercase text-info font-weight-bold">
-                                        Home
+                                    Home
                                     </span>
 
-                                    <span className="d-block pb-4 h2 text-dark border-bottom border-gray">Portfolio Project</span>
+                                    <span className="d-block pb-4 h2 text-dark border-bottom border-gray">Jinseong</span>
 
                                     <article className="pt-5 text-secondary text-justify" style={{ fontSize: '0.9rem', whiteSpace: 'pre-line' }}>
                                          
+                                    <Thumbnail/>
                                     </article>
+
                                 </div>
                             </Fragment>
-                            <Thumbnail/>
                         </Col>
                     </Row>
                 </Container>

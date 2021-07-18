@@ -19,7 +19,7 @@ class Header extends React.Component {
                 <Nav className="mrx-auto" navbar>
 
                   <NavItem className="d-flex align-items-center">
-                    <NavLink className="font-weight-bold" href="/home">This Page..</NavLink>
+                    <NavLink className="font-weight-bold" href="/home">Home</NavLink>
                   </NavItem>
 
                   <NavItem className="d-flex align-items-center">
