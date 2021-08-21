@@ -1,7 +1,7 @@
 var express = require('express');
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+var indexRouter = require('../my_app/routes/index');
+var usersRouter = require('../my_app/routes/users');
 
 var app = express();
 
