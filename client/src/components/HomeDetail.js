@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import Thumbnail from 'components/jinseong/Thumbnail';
+import HomeContent from 'components/jinseong/HomeContent';
+
+
 
 class HomeDetail extends Component {
     render() {
@@ -19,7 +21,7 @@ class HomeDetail extends Component {
 
                                     <article className="pt-5 text-secondary text-justify" style={{ fontSize: '0.9rem', whiteSpace: 'pre-line' }}>
                                          
-                                    <Thumbnail/>
+                                    <HomeContent/>
                                     </article>
 
                                 </div>

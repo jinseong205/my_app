@@ -1,15 +1,24 @@
 .thumbnail{
     background-color:gray;
-    margin:10px;
-    width:150px;
-    height:150px;
+    width:350px;
+    height:350px;
+    margin : 20px 10px 10px 10px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
   }
-  .thumbnail.round{
-    border-radius: 10%;
+
+
+  .leftDiv{
+    width : 30%;
+    height : 800px;
+    background-color: yellow;
+    float : left;
   }
-  .thumbnail.circle{
-    border-radius: 100%;
+  
+  .rightDiv{
+    width : 70%;
+    height : 800px;
+    background-color: green;
+    float : left;
   }
